@@ -6,7 +6,7 @@ import bot_common
 r = redis.Redis(decode_responses=True)
 vk_session = vk_api.VkApi(token='', api_version=5.95)
 vk = vk_session.get_api()
-longpoll = VkBotLongPoll(vk_session, 185018457)
+longpoll = VkBotLongPoll(vk_session, 191028713)
 
 commands = ['/reg', '/account', '/reset', '/help']
  
